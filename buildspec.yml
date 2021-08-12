@@ -20,4 +20,5 @@ artifacts:
     - appspec.yml
     - scripts/**/*
     - db.json
+    - node_modules/**/*
     
