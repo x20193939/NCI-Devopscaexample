@@ -6,10 +6,10 @@ phases:
       nodejs: 10
   pre_build:
     commands:
-      - echo "installation of npm"
+      - echo "installation of npm"  
+      - npm run build
   post_build:
     commands:
-      - npm run build
       - echo Build completed
 artifacts:
   files:
